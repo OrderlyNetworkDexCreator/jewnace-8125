@@ -1,5 +1,5 @@
 :root {
-  --oui-font-family: 'Poppins', sans-serif;
+  --oui-font-family: 'Lato', sans-serif;
   --oui-font-size-base: 16.5px;
 
   /* colors */
@@ -83,7 +83,7 @@
   --oui-rounded-md: 30px;
   --oui-rounded-lg: 1px;
   --oui-rounded-xl: 1px;
-  --oui-rounded-2xl: 1px;
+  --oui-rounded-2xl: 0px;
   --oui-rounded-full: 9999px;
 
   /* spacing */
@@ -95,7 +95,7 @@
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   font-size: 16.5px !important;
 }
 
@@ -103,5 +103,5 @@ html, body {
 .orderly-app-container *,
 .orderly-app-container *::before,
 .orderly-app-container *::after {
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
 }
